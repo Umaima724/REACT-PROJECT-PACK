@@ -6,6 +6,7 @@ import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
 import QRCodeGenerator from './components/qr-code-generator';
+import Weather from './components/WeatherApp/weather';
 function App() {
   
 
@@ -23,6 +24,7 @@ function App() {
       />
       <LoadMoreData/>
       <QRCodeGenerator/>
+      <Weather/>
       </div>
     </>
   )
